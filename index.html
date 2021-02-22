@@ -1,0 +1,69 @@
+<DOCTYPE html>
+
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <title>Javascript</title>
+        </head>
+
+<body>
+<script>
+
+//ejercicio 1
+
+    let nombre = ["j" , "u" , "l" , "i" , "a"];
+
+    for (let i=0; i < nombre.length; i++) {
+
+        console.log (nombre [i])
+
+    }
+
+    //ejercicio 2
+
+let name = ["j","u", "l", "i", "3", "a"];
+
+console.log ("Partim del nom julia")
+
+let resultado = name.filter(function(item) {  
+
+  if ((item == 'u') || (item == 'i') || (item =='a')){
+
+  console.log("He trobat la vocal: " + item )
+
+  }
+
+  else if ((item == 'j') || (item == 'l')){
+
+    console.log ("He trobat la consonant: " + item )
+
+  }
+
+  else {
+
+    console.log ("no tenen el numero: " + item)
+  }
+
+});
+
+//ejercicio 3 en proceso
+
+let nombre = ["j" , "u" , "l" , "i" , "a"];
+
+
+//Un poco de ayuda, por favor
+
+
+// ejercicio 4
+
+let surname= ["s", "a", "n", "c", "h", "e", "z"];
+
+let fullName = nombre.concat(surname);
+
+fullName.splice ( 5, 0, " ");
+
+console.log (fullName);
+
+</script>
+</body>
+</html> 
